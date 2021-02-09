@@ -60,49 +60,49 @@
 
         <!-- Form Start -->
         <div class="row">
-            <form method="post" name="league_reg_form" action="training_reg_form_handler.php">
+            <form method="post" name="league_reg_form" action="https://formspree.io/f/mwkwzzwb">
                 <div class="row">
                     <div class="col-6">
                         <label for="parfname" class="gen_paragraph_text">Parent First Name*</label><br>
-                        <input type="text" id="parent_first_name" name="parent_first_name" value="" class="reg_input"><br>
+                        <input type="text" id="parent_first_name" name="Parent First Name" value="" class="reg_input"><br>
                     </div>
                     <div class="col-6">
                         <label for="parlname" class="gen_paragraph_text">Parent Last Name*</label><br>
-                        <input type="text" id="parent_last_name" name="parent_last_name" value="" class="reg_input"><br>
+                        <input type="text" id="parent_last_name" name="Parent Last Name" value="" class="reg_input"><br>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-6 no_top_pad">
                         <label for="email" class="gen_paragraph_text">Email*</label><br>
-                        <input type="text" id="email_address" name="email_address" value="" class="reg_input"><br>
+                        <input type="email" id="email_address" name="Email Address" value="" class="reg_input"><br>
                     </div>
 
                     <div class="col-6 no_top_pad">
                         <label for="phone" class="gen_paragraph_text">Phone*</label><br>
-                        <input type="text" id="phone_num" name="phone_num" value="" class="reg_input"><br>
+                        <input type="text" id="phone_num" name="Phone Number" value="" class="reg_input"><br>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-6 no_top_pad">
                         <label for="playerfname" class="gen_paragraph_text">Player First Name*</label><br>
-                        <input type="text" id="player_first_name" name="player_first_name" value="" class="reg_input"><br>
+                        <input type="text" id="player_first_name" name="Player First Name" value="" class="reg_input"><br>
                     </div>
                     <div class="col-6 no_top_pad">
                         <label for="playerlname" class="gen_paragraph_text">Player Last Name*</label><br>
-                        <input type="text" id="player_last_name" name="player_last_name" value="" class="reg_input"><br>
+                        <input type="text" id="player_last_name" name="Player Last Name" value="" class="reg_input"><br>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-6 no_top_pad">
                         <label for="playerdob" class="gen_paragraph_text">Player Date of Birth*</label><br>
-                        <input type="text" id="player_dob" name="player_dob" value="" class="reg_input"><br>
+                        <input type="text" id="player_dob" name="Player Date of Birth" value="" class="reg_input"><br>
                     </div>
                     <div class="col-6 no_top_pad">
                         <label for="playergrade" class="gen_paragraph_text">School Grade*</label><br>
-                        <select id="playergrade" name="playergrade" size="1" class="reg_input">
+                        <select id="playergrade" name="Grade" size="1" class="reg_input">
                             <option value="1st">1st Grade</option>
                             <option value="2nd">2nd Grade</option>
                             <option value="3rd">3rd Grade</option>
@@ -122,13 +122,13 @@
                 <div class="row gen_paragraph_text">
                     <div class="col-12 no_top_pad">
                         Are you interested in joining one of our Development or Club Teams?<br>
-                        <input type="radio" id="dev_league" name="team_type" value="interested_in_dev_league">
+                        <input type="radio" id="dev_league" name="Interested in Team" value="Development League">
                         <label for="dev_league" class="gen_paragraph_text">Yes, a development league sounds great!</label><br>
-                        <input type="radio" id="club_team" name="team_type" value="interested_in_club">
+                        <input type="radio" id="club_team" name="Interested in Team" value="Club Team">
                         <label for="club_team" class="gen_paragraph_text">Yes, I'd be interested in a Competative Club Team!</label><br>
-                        <input type="radio" id="both" name="team_type" value="interested_in_both">
+                        <input type="radio" id="both" name="Interested in Team" value="Development and Club">
                         <label for="both" class="gen_paragraph_text">Yes, I'd be interested in both!</label>
-                        <input type="radio" id="maybe" name="team_type" value="maybe_later">
+                        <input type="radio" id="maybe" name="Interested in Team" value="Maybe Later">
                         <label for="maybe" class="gen_paragraph_text">Maybe later.</label>
                     </div>
                 </div>
@@ -172,13 +172,6 @@
                 }
             }
         </script>
-
-        <!-- <script language="JavaScript">
-            var frmvalidator = new Validator("contactform"); 
-            frmvalidator.addValidation("name","req","Please provide your name"); 
-            frmvalidator.addValidation("email","req","Please provide your email"); 
-            frmvalidator.addValidation("email","email", "Please enter a valid email address"); 
-        </script> -->
 
     </body>
 </html>
