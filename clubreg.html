@@ -67,13 +67,16 @@
 
         <!-- Form Start -->
         <div class="row">
-            <form method="post" name="league_reg_form" action="https://formspree.io/f/mwkwzzwb">
+            <form method="POST" name="league_reg_form" action="https://formspree.io/f/mwkwzzwb">
+
+                <input type="text" id="reg_type" name="Registration Type" value="Club Team" class="hidden"><br>
+
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 no_top_pad">
                         <label for="parfname" class="gen_paragraph_text">Parent First Name*</label><br>
                         <input type="text" id="parent_first_name" name="Parent First Name" value="" class="reg_input"><br>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 no_top_pad">
                         <label for="parlname" class="gen_paragraph_text">Parent Last Name*</label><br>
                         <input type="text" id="parent_last_name" name="Parent Last Name" value="" class="reg_input"><br>
                     </div>
