@@ -87,7 +87,8 @@ a {
 
 .nav-bar-item-left {
   float: left;
-  padding-right: 5%
+  padding-right: 5%;
+  width: 9%
 }
 
 .nav-bar-item-right {
@@ -310,8 +311,21 @@ img {vertical-align: middle;}
 }
 
 .footer_icon_sz {
-  font-size: 24px!important;
-  padding: 3px
+  font-size: 35px!important;
+  padding: 15px!important
+}
+
+.footer {
+  position:fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.footer_dynamic {
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
 
 /******************************************************** 
@@ -346,6 +360,20 @@ img {vertical-align: middle;}
     width: 100%;
     text-align: center;
   }
+
+  .footer_dynamic {
+    position:fixed;
+  }
+
+  .nav-bar-item-left {
+    padding: 2%;
+    width: 75px;
+  }
+
+  .nav-bar-black {
+    padding-left: 5%;
+  }
+
 }
 
 .footer_icon_sz {
@@ -387,8 +415,8 @@ img {vertical-align: middle;}
   }
 
   .footer_icon_sz {
-    font-size: 10px;
-    padding: 2px
+    font-size: 20px!important;
+    padding: 5px!important;
   }
   
   .hamburger_icon {
@@ -430,6 +458,10 @@ img {vertical-align: middle;}
     border: 2px solid #000;
     width: 90px;
     height: 40px;
+  }
+
+  .footer_dynamic {
+    position:fixed;
   }
 
 }  
